@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/img_bt1"
+            android:background="@color/main_bg"
+            android:layout_width="120dp"
+            android:src="@drawable/huang1"
+            android:layout_height="120dp"
+            android:gravity="center"
+            />
+        <ImageButton
+            android:id="@+id/img_bt2"
+            android:background="@color/main_bg"
+            android:src="@drawable/huang2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/img_bt3"
+            android:src="@drawable/huang3"
+            android:background="@color/main_bg"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center" />
+        <ImageButton
+            android:id="@+id/img_bt4"
+            android:src="@drawable/huang4"
+            android:background="@color/main_bg"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/img_bt5"
+            android:src="@drawable/huang5"
+            android:background="@color/main_bg"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center" />
+        <ImageButton
+            android:id="@+id/img_bt6"
+            android:src="@drawable/huang6"
+            android:background="@color/main_bg"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

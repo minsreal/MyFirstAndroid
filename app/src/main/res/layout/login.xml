@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWelBG"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login"
+        android:layout_weight="0.06" />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:id="@+id/login_name"
+        android:textColor="#444444"
+        android:padding="0dip"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:background="@drawable/general_shape"
+        android:textColorHint="#a9a9a9"
+        android:hint="输入任意字符继续"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:background="@color/login_bt"
+        android:gravity="center"
+        android:text="登录"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

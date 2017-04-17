@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29d46d</color>
+    <color name="colorPrimaryDark">#4da171</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWelBG">#FF37E095</color>
+    <color name="colorWelTex">#ffffff</color>
+
+    <color name="main_bg">#608f9f</color>
+    <color name="main_bt1">#7ffbb217</color>
+    <color name="main_bt2">#7fedde8b</color>
+    <color name="main_bt3">#7f9f7d50</color>
+    <color name="main_bt4">#7fac5118</color>
+    <color name="main_bt5">#7f752423</color>
+    <color name="main_bt6">#7fe0a09e</color>
+
+    <color name="login_bt">#269d80</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#e15d5d</color>
+
+    <!--base_color是主色调，titleBar的颜色-->
+    <color name="base_color">#014d67</color>
+</resources>
